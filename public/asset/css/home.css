@@ -1,0 +1,329 @@
+@keyframes slide {
+    0% {
+        background-image: url(../img/1.png);
+    }
+    33% {
+        background-image: url(../img/2.png);
+    }
+    67% {
+        background-image: url(../img/3.png);
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: url(../img/1.png);
+    animation: slide 12s infinite;
+    background-size: cover;
+    height:320px;
+    margin-top: -85px;
+}
+
+.circle1 {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border-radius: 100%;
+    margin-top: -175px;
+    margin-left: -150px;
+}
+
+.btn {
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 75px;
+    border-spacing: 2px;
+    font-weight: bold;
+    font-family: montserrat;
+    font-size: 22px;
+}
+
+
+.display-4 {
+    margin-top: 55px;
+    font-size: 22px;
+    text-shadow: 0 5px 10px black;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+.display-4 span {
+    font-weight: 400;
+}
+
+.berita {
+    border-radius: 20px;
+    margin-top: -125px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 3px 10px black;
+
+}
+
+.berita img {
+    margin: auto;
+    width: 350px;
+    height: 175px;
+    box-shadow: 0px 1px 5px black;
+    border-radius: 5px;
+    margin-left: 10px;
+    float: left;
+}
+
+.berita .teks {
+    margin: auto;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.tentang {
+    background-color: rgb(20, 20, 20);
+    text-transform: uppercase;
+    margin-top: 15%;
+    font-family: montserrat;
+    font-weight: lighter;
+    padding: 10px;
+    padding-bottom: 20px;
+    z-index: -1;
+}
+
+
+
+
+
+/* desktop version */
+
+
+@media (min-width: 992px) { 
+    .content {
+        margin-top: -1250px;
+    }
+    
+    .content p {
+        z-index: 1;
+        font-size: 22px;
+        position: relative;
+        font-family: montserrat;
+
+    }
+    
+    .content a {
+        z-index: 1;
+        font-size: 22px;
+        position: relative;
+        border-radius: 25px;
+        width: 75px;
+        border-spacing: 2px;
+        font-weight: bold;
+        font-family: montserrat;
+
+    }
+
+   
+    .kontak {
+        margin-bottom: -30px;
+    }
+    
+
+    .content h4 {
+        z-index: 1;
+        font-size: 26px;
+        position: relative;
+        font-family: montserrat;
+    }
+    .content img {
+        width: 1400px ;
+        height: 680px ;
+        position: absolute;
+        margin-top: -355px;
+        margin-left: -150px;
+        opacity: 85%;
+    }
+
+    .navbar {
+        font-size: 12px;
+        position: relative;
+        z-index: 1;
+    }
+    .nav-link {
+        margin-right: 20px;
+        text-transform: uppercase;
+        font-family: montserrat;
+        text-shadow: 1px 10px 15px black;
+    }
+    
+    .circle1 {
+        width: 950px;
+        height: 950px;
+        background-color: rgb(238, 251, 255);
+        border-radius: 100%;
+        margin-top: -175px;
+        margin-left: -450px;
+        box-shadow: 0 1px 5px grey;
+    }
+    .circle2 {
+        width: 550px;
+        height: 550px;
+        background-color: lightblue;
+        border-radius: 100%;
+        margin-top: 150px;
+        margin-left: 63%;
+        box-shadow: 0 5px 10px grey;
+        opacity: 25%;
+    }
+    
+    .circle3 {
+        z-index: -1;
+        width: 750px;
+        height: 750px;
+        background-color: rgb(178, 222, 236);
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -25%;
+        margin-left: -25%;
+        box-shadow: 0 5px 10px grey;
+        opacity: 25%;
+
+    }
+
+    .imgberita {
+        width: 350px;
+        height: 150px;
+        box-shadow: 0px 1px 5px black;
+        border-radius: 5px;
+        margin-left: 10px;
+        float: left;
+    }
+    
+    .berita .teks {
+        margin-top: -10px;
+        margin-left: -100px;
+        width: 200px;
+        height: 175px;
+        font-size: 18px;
+        right: 20px;
+
+    }
+
+    
+    .jumbotron {
+        margin-top: -75px;
+        background-size: cover;
+        height:690px;
+        position: relative;
+    }
+    
+    .display-4 {
+        margin-top: 150px;
+        text-shadow: 0 5px 10px black;
+        font-size: 62px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .display-4 span {
+        font-weight: bold;
+    }
+
+    .nav-link:hover {
+        background-color: #0077FF;
+        border-radius: 10px;
+    }
+    
+    /* come N visit */
+    
+    .comeNvisit {
+        margin-top: 50%;
+    }
+    
+    .comeNvisit p {
+        z-index: 1;
+        font-size: 22px;
+        position: relative;
+        font-family: montserrat;
+    }
+    
+    .comeNvisit h4 {
+        z-index: 1;
+        font-size: 26px;
+        position: relative;
+        font-family: montserrat;
+    }
+    /* End of come N visit */
+    
+    /* Public Facility */
+
+    .pfacility{
+        margin-top: 25%;
+    }
+    
+    .pfacility p {
+        z-index: 1;
+        font-size: 22px;
+        position: relative;
+        font-family: montserrat;
+    }
+    
+    .pfacility h4 {
+        z-index: 1;
+        font-size: 26px;
+        position: relative;
+        font-family: montserrat;
+    }
+
+    
+    
+    /* End of public facility */
+
+    
+    /* live in New York */
+    
+    .liveinNY{
+        margin-top: 30%;
+    }
+    
+    .liveinNY p {
+        z-index: 1;
+        font-size: 22px;
+        position: relative;
+        font-family: montserrat;
+    }
+    
+    .liveinNY h4 {
+        z-index: 1;
+        font-size: 26px;
+        position: relative;
+        font-family: montserrat;
+    }
+
+    .liveinNY img {
+        margin-top: -125px;
+        width: 823px;
+        height: 470px;
+        float: left;
+    }
+    /* End of live in new York */
+
+
+
+    @keyframes slide {
+        0% {
+            background-image: url(../img/1.png);
+        }
+        33% {
+            background-image: url(../img/2.png);
+        }
+        67% {
+            background-image: url(../img/3.png);
+        }
+    }
+
+
+ }
